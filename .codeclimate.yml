@@ -3,6 +3,3 @@ engines:
     enabled: true
   eslint:
     enabled: true
-    
-ratings:
-- "**/**.*"
