@@ -1,13 +1,11 @@
-engines:
-  bundler-audit:
-    enabled: false
-  fixme:
-    enabled: false
-  rubocop:
-    enabled: true
-ratings:
-  paths:
-  - Gemfile.lock
-  - "**.rb"
+# Remove any languages you don't want analyzed.
+languages:
+  Ruby: true
+  JavaScript: true
+# For all languages, we support a standard set of Glob patterns.
 exclude_paths:
-- test/**/*
+  - src/vendor/*
+  - src/public/*
+    - ansible/*
+    - deploy/*
+    - deploy/*
